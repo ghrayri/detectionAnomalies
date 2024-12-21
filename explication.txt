@@ -1,0 +1,27 @@
+Forêt d'Isolement (Isolation Forest)
+L'algorithme forêt d'isolement (ou Isolation Forest) est un algorithme 
+d'apprentissage non supervisé, spécialisé dans la détection d'anomalies (outliers).
+
+Fonctionnement :
+L'algorithme considère les anomalies comme étant :
+-Rares
+-Isolées
+-Différentes les unes des autres
+
+Le principe de fonctionnement de l'algorithme est de construire une série d'arbres de décision. Pour chaque arbre :
+
+-Une caractéristique est choisie de manière aléatoire.
+-Une valeur de coupure est ensuite choisie aléatoirement entre les valeurs maximales et minimales de cette caractéristique.
+
+Ce processus se poursuit de manière récursive jusqu'à ce que les points de données soient isolés dans des nœuds individuels.
+*********code*********
+le code fournis dans le fichier detectionAnamolies  , est un code simple qui est le but d'expliquer 
+et montrer comment l'arbre d'isolement ça fonctionne 
+
+Si vous avez des questions, n'hésitez pas à me contacter.
+pour creditcard j'ai installer de kaggle :https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+******************
+(Si vous aimez l'idée et  vous êtes intéressé par la compréhension d'autres algorithmes de détection d'anomalies 
+ou d'autres domaines de l'apprentissage automatique, je peux ajouter des explications
+ concises pour chacun d'eux.
+N'hésitez pas à me faire savoir quels algorithmes vous souhaitez voir expliqués)
