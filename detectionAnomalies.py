@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 ## importation des donées
-data = pd.read_csv("C:/Users/user/OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique/Bureau/creditcard.csv")
+data = pd.read_csv("C:/Users/votre/chemin/creditcard.csv")
 print(data)
 
 
